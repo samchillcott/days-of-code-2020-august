@@ -35,3 +35,25 @@
 - Not actually done the pure function but have improved other areas of app (which I guess does actually go some way to prepping for testing (and testing for performance)).⁣
 - Quick chat with mentor getting head around pure functions and testing philosophy. Will attack tomorrow.⁣
 - Official twitter button was injecting an iframe which caused issues with styling/hiding and carrying state to tweet. Did it my way instead.
+
+### #daysofcode 4/8/20 ⁣
+⁣
+**Today's Progress**⁣
+- Challenge 7 - Tests:⁣
+- Pure Functions - A pure function is a function where the return value is only determined by its input values, without observable side effects. Benefits: no side-effects, easier testing, easier debugging.⁣
+- Referential Transparency = your function can be substituted with its output and not affect your program’s behaviour. If your function has side effects, swapping it out can break the program.⁣
+- You can’t write bad code and good unit tests. If your unit tests are bad, it might be a symptom of bad code. Go back to the design and figure out how it needs to change to allow writing good unit tests.⁣
+- Moved my pure function to util.js file and linked back to app.js (didn't need to but good practice for modular code). The util. js file contains a set of JavaScript utility functions that are used across multiple components.⁣
+- Wrote first unit test to check selectRandomItemFromArray should select an item from an array at random.⁣
+- Installed Jest-extended to have access to toBeOneOf. toBe only takes a single match.⁣
+- Added exception testing - if the function is going to be invoked it has to be wrapped in another function call, otherwise the error will be thrown unexpectedly.⁣
+⁣
+**Thoughts** ⁣
+- Pure functions can help me write better more testable code that is optimised. Have heard about functional programming so cool to check it out somewhat.⁣
+- Caught myself going too deep into pure functions, back to actually writing some tests.⁣
+- Realised my selectRandomItemFromArray function isn't technically a pure function because it outputs different results each time.⁣
+- npm test in React actually uses Jest. Create React App uses Jest as its test runner.⁣
+- Noticed I have 2 test suites because I still have the App.test.js file from CRA. And that's the test that is failing! My test looks like it is working. Deleted App.test.js.⁣
+- Refactored test following the Jest docs, no longer works.⁣
+- Choosing to write my first unit test on a function whose sole purpose is to deliberately give a different output each time probably wasn't the best idea lol.⁣
+- Got unit test working with 3 variations of input including an empty array. Not quite sure how I am supposed to test for incorrect usage.
