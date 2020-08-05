@@ -57,3 +57,22 @@
 - Refactored test following the Jest docs, no longer works.⁣
 - Choosing to write my first unit test on a function whose sole purpose is to deliberately give a different output each time probably wasn't the best idea lol.⁣
 - Got unit test working with 3 variations of input including an empty array. Not quite sure how I am supposed to test for incorrect usage.
+
+### #daysofcode 5/8/20 ⁣
+⁣
+**Today's Progress**⁣
+- Challenge 7 - Tests:⁣⁣
+- Reading on how to do unit tests. When you’re writing tests, always try to be an evil genius. Think deeply about what can go wrong and add “unhappy path” test scenarios to keep your code honest.⁣
+- Refactored original function to throw bespoke errors (not just generic ones) - based on what I expected in the test scenarios = using my tests to better my original code.⁣
+- One Concern in One Test - Each test should evaluate one and only issue. Refactored test code into separate tests and added describe code block to house them.⁣
+- Integration test on my Randomize function.⁣
+- Renamed test to it - line of code/sentence makes more sense this way imo.⁣
+⁣
+**Thoughts** ⁣
+- I do get the concept of why we do unit tests and I have done a few already but I want to check I am testing for the right things and in the right way. I want to get clearer on HOW to actually write the tests - less so the syntax, more the concept.⁣
+- I had the Q; If you are expecting certain errors to be thrown, do you have to have written them into the source code first? OR will the test throw that error? I now see the point is to write the expected errors in the test then go back and add that code to your source and therefore pass the test!⁣
+- I'm not convinced my test should be passing. I'm deliberately writing incorrect expected throw messages. Hmm. Spent an hour testing my tests. Wonder if it is timing out - I can see some test have the time in ms next to them and some don't? Spent a while googling this forgetting to check the Jest docs. Still seem to pass even when I feed inputs that should fail the test.⁣
+- I'm thinking integration testing in React could be more complicated due to state being involved. Will be worth knowing how to do the testing though.⁣
+⁣
+**Questions**⁣
+- Do all my functions have to be re-written to take arguments for them to be tested? Aka reusable. Yes function needs to take an input.
