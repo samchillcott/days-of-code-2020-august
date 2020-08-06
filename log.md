@@ -76,3 +76,46 @@
 ⁣
 **Questions**⁣
 - Do all my functions have to be re-written to take arguments for them to be tested? Aka reusable. Yes function needs to take an input.
+
+### #daysofcode 6/8/20 ⁣
+⁣
+**Today's Progress**⁣
+- Challenge 7 - Tests:⁣⁣
+- Integration Tests reading - Pros and cons of Big Bang and the various Incremental strategies.⁣
+- Integration test attempt - refactored main randomise function to accept arguments (2x arrays and 3 state setters). Test code fail.⁣
+- e2e Test attempt - Also fail. ⁣
+⁣
+**Thoughts** ⁣
+- I've been putting this off because I was/am still unsure on how to execute these, especially if they deal with state and was scared of having to rewrite my function to take arguments = I'm acknowledging some resistance.⁣
+- I'm thinking I'm going to have to separate my concerns on my randomise function as it does 3 things.⁣
+- Realizing the checks I wrote into yesterday's function are breaking when using the real-world data rather than the test data upon feeding (testing the array for non-integers = my questions array is all strings). Commented out the non integer check => react render infinite loop. Wrapped the onClick/JSX function in an arrow function - Fixed.⁣
+- Seems the error checks I wrote in my source code yesterday are causing most of my issues today. Guess the plan is to find the balance of only checking certain things that COULD actually happen in the app rather than everything that COULD happen outside the context of the app.⁣
+- I'm sure some of my tests should be failing. Not 100% sure why but as my foray is only meant to be an introduction I shan't worry about it too much at this stage.⁣
+- Cannot read property 'constructor' of undefined - can't work out why feeding my test a legit variable is causing this.⁣
+- Not had a day of being stumped in a while. Moving on to e2e for a dabble.⁣
+- e2e test showing blank screen in puppeteer and passing test even with no expect code, wtf?!⁣
+- Calling it for the day.⁣
+- Think I should be using React testing library, will attack tomorrow.
+
+### #daysofcode 6/8/20 ⁣
+⁣
+**Today's Progress**⁣
+- Challenge 7 - Tests:⁣⁣
+- Integration Tests reading - Pros and cons of Big Bang and the various Incremental strategies.⁣
+- Integration test attempt - refactored main randomise function to accept arguments (2x arrays and 3 state setters). Test code fail.⁣
+- e2e Test attempt - Also fail. ⁣
+⁣
+**Thoughts** ⁣
+- I've been putting this off because I was/am still unsure on how to execute these, especially if they deal with state and was scared of having to rewrite my function to take arguments = I'm acknowledging some resistance.⁣
+- I'm thinking I'm going to have to separate my concerns on my randomise function as it does 3 things.⁣
+- Realizing the checks I wrote into yesterday's function are breaking when using the real world data rather than the test data upon feeding (testing the array for non-integers = my questions array is all strings). Commented out the non integer check => react render infinite loop. Wrapped the onClick/JSX function in an arrow function - Fixed.⁣
+- Seems the error checks I wrote in my source code yesterday are causing most of my issues today. Guess the plan is to find the balance of only checking certain things that COULD actually happen in the app rather than everything that COULD happen outside the context of the app.⁣
+- I'm sure some of my tests should be failing. Not 100% sure why but as my foray is only meant to be an introduction I shan't worry about it too much at this stage.⁣
+- Cannot read property 'constructor' of undefined - can't work out why feeding my test a legit variable is causing this.⁣
+- Not had a day of being stumped in a while. Moving on to e2e for a dabble.⁣
+- e2e test showing blank screen in puppeteer and passing test even with no expect code, wtf?!⁣
+- Calling it for the day.⁣
+- Think I should be using React testing library, will attack tomorrow.⁣
+⁣
+**Questions**⁣
+- Is it best practice to always write functions as reusable (take arguments rather than hardcoded for specific use)?
