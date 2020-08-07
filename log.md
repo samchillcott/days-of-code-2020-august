@@ -119,3 +119,28 @@
 ⁣
 **Questions**⁣
 - Is it best practice to always write functions as reusable (take arguments rather than hardcoded for specific use)?
+
+### #daysofcode 7/8/20 ⁣
+⁣
+**Today's Progress**⁣
+- Challenge 7 - Tests:⁣⁣
+- e2e in React using Puppeteer headless browser.⁣
+- Debugging tests using VSCode debugger. ⁣
+- All tests (unit x 4, integration and end 2 end) pass.⁣
+⁣
+**Thoughts** ⁣
+- Moved int and e2e test to app.test.js, still same issue of one of the variables being undefined so the inner function can't run.⁣
+- Changed page.goto from a file(index.html) to the localhost - app now showing in chromium.⁣
+- My main two fails are now due to 'undefined' issues. There must be something (possibly obvious) I am missing here but the testing environment is slightly different because I don't yet know how to debug the tests (as opposed to just the app code). I'm pretty sure I'm close on both my int and e2e tests but something isn't being passed as I expect.⁣
+- What is undefined? OR is that the point/answer? The test don't have the variable they need to test? Noticed these errors are coming from the expect lines of my int and e2e which are both checking to see if the question displayed is one of the questions array. ⁣
+= it has the variable but it has no data/value attached - why? And what exactly is undefined? Which variable? And where is it being used?⁣
+- Medium's paywall is starting to annoy me.⁣
+- Using the debugger is still a weak point of mine and is on my list of areas to improve. Those skills would come in handy now.⁣
+- Had a play in VSCode debugger and looks like my questions variable (my array of questions saved as an array) is undefined - not sure why. I don't know how to use debugger, yet! Did some recon on how to use debugger. Don't think I can sort my tests out without this knowledge so detour it is.⁣
+- questions variable is undefined at import stage. Changed export to exports. syntax and is now available in test file. This means my choice variable now gets defined too.⁣
+- toBeOneOf is also undefined which leads me to believe it also isn't being imported correctly. Actually, the test is failing because once the question is selected and matched against the array it isn't in there because the function removed it!⁣
+- Getting the hang of debugger and breakpoints - cool!⁣
+- Both suites (all tests in unit/int/e2e) pass.⁣
+⁣
+**Questions**⁣
+- Is the debugger changing my original files? Look like it's adding a load of stuff? Or at least in a copy of the file in the next tab over.
