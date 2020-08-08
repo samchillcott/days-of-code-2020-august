@@ -144,3 +144,11 @@
 ⁣
 **Questions**⁣
 - Is the debugger changing my original files? Look like it's adding a load of stuff? Or at least in a copy of the file in the next tab over.
+
+### #daysofcode 8/8/20 
+
+**Today's Progress**
+- N/A.
+
+**Thoughts** 
+- Reading about what areas of tech I would like to explore more. Currently drawn toward Blockchain, HCI & Cognitive Science, I-apps (intelligent apps) & AR.
