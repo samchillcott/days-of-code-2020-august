@@ -152,3 +152,12 @@
 
 **Thoughts** 
 - Reading about what areas of tech I would like to explore more. Currently drawn toward Blockchain, HCI & Cognitive Science, I-apps (intelligent apps) & AR.
+
+### #daysofcode 9/8/20 
+
+**Today's Progress**
+- N/A.
+
+**Thoughts** 
+- Further reading on the bottlenecks for Blockchain adoption.
+- Planned my strategy for job-hunting which starts next week.
