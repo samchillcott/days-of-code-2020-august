@@ -161,3 +161,18 @@
 **Thoughts** 
 - Further reading on the bottlenecks for Blockchain adoption.
 - Planned my strategy for job-hunting which starts next week.
+
+### #daysofcode 10/8/20 ⁣
+⁣
+**Today's Progress**⁣
+- Project 2 Tidy:⁣
+- Sorted styling for CTC and Tweet buttons.⁣
+- Add animations and pointers to buttons. ⁣
+- Mobile responsive on iPhone 5 using aspect ratio.⁣
+- Added testing reflections to readme.⁣
+- Redeployed all updates to Netlify.⁣
+- Added Jest & Puppeteer icons to Portfolio.⁣
+- Updated resume to include testing.⁣
+⁣
+**Thoughts** ⁣
+- Ready for the next phase.
