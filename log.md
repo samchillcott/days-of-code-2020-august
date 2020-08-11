@@ -176,3 +176,18 @@
 ⁣
 **Thoughts** ⁣
 - Ready for the next phase.
+
+### #daysofcode 11/8/20 ⁣
+⁣
+**Today's Progress**⁣
+- GH Pull Requests & Issues - Understanding the difference and workflow.⁣
+- Weather App issue - My friend Wissam @designingforscale noticed my weather app shows the sunrise/set times in GMT (local time for me) irrespective of what city is returned. This obviously means non GMT-based cities have incorrect times. Created fix branch for the issue and linked to a new (draft) PR.⁣
+
+**Thoughts** ⁣
+- Been good to get some experience with working on a "shared repo"/with others in GH. All my work up to this date has just been me, my code, my repos.⁣
+- I shall also have a play with some open source at some point.⁣
+- Noticed even my GMT times are 1 hour off. Strangely the sunset is 1 hour earlier than expected and sunset is 1 hour later?! Something funky going on here could be daylight savings/BST causing an inconsistency. It is the convert to UTC which is causing it. I don't actually need this conversion (think I initially did because I wanted to convert to GMT for some reason).⁣
+- Got UK/GMT cities working fine and updated the display format by removing the seconds.⁣
+- Montreal (my test case) still not working as desired. This is because the Unix timestamp is based off UTC so will have to make a function that does some sort of conversion based on the timezone (timezone Shift in seconds from UTC) value available in the retried data object.⁣
+- sunrise conversion using timezone is now knocking the GMT sunrise times off by an hour for some reason. The sunrise conversion timestamp is correct so my date obj is wrong/adding an hour.⁣
+- Leaving this for the day as I have a call with my mentor. Sometimes it's a good thing to leave things hanging = more excitement and momentum to attack in the next coding session.
