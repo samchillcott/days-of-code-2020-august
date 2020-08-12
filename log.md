@@ -191,3 +191,13 @@
 - Montreal (my test case) still not working as desired. This is because the Unix timestamp is based off UTC so will have to make a function that does some sort of conversion based on the timezone (timezone Shift in seconds from UTC) value available in the retried data object.⁣
 - sunrise conversion using timezone is now knocking the GMT sunrise times off by an hour for some reason. The sunrise conversion timestamp is correct so my date obj is wrong/adding an hour.⁣
 - Leaving this for the day as I have a call with my mentor. Sometimes it's a good thing to leave things hanging = more excitement and momentum to attack in the next coding session.
+
+### #daysofcode 12/8/20 
+
+**Today's Progress**
+- N/A.
+
+**Thoughts** 
+- Day off having fun with the fam in the sun. 
+- Been pondering the date/times in weather app - I shall try and do it myself but I'll also have a go with date-fns library which was recommended to me. Would be further practice using libraries and docs.
+
