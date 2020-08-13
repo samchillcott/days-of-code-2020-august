@@ -201,3 +201,22 @@
 - Day off having fun with the fam in the sun. 
 - Been pondering the date/times in weather app - I shall try and do it myself but I'll also have a go with date-fns library which was recommended to me. Would be further practice using libraries and docs.
 
+### #daysofcode 13/8/20 
+
+**Today's Progress**
+- Weather App Times Issue:
+- Date Object reading.
+- date-fns utility library installation and doc reading.
+- momentjs installation, doc reading and sunrise/set attempt - All working but sunset misses a digit on minutes in some cases.  
+
+**Thoughts** 
+- Starting to see I could code this myself but it is the date object that is causing the issue and as there are so many variations and timezones I would need to code in, I'm thinking a library (which was recommended to me by a few friends) is actually the best way forward to cover all "gotchas".
+- I'm collecting and converting the correct sunrise time in UNIX but struggling to convert that into the correct time.
+- Having the same issue of my Unix being correct but converting it to an object using date-fns is converting to GMT (great for Leeds, not for Montreal). It is converting my unix back into GMT which I don't want. Seems this is built in to momentjs (the other recommended library) but I need a helper function date-fns-tz. Had a quick read but don't think this will do what I need to.
+- Installed momentjs which acts as a wrapper so have to use a different getter approach to draw the hours and mins from the result.
+- Now getting a crazy/incorrect date object. The getters are working but because the object is wrong, it is still displaying incorrect times. Needed moment.unix().
+- Really starting to see how dates, times and timezones are a pain in the backside in JS! All good practice though.
+- Both Leeds and Montreal (date objects) are an hour out, so I'm almost there. Turns out I need .unix().utc().format(). So the object is now correct but the getters are off. So close lol.
+- Think the .format() was confusing the getters so removed that and looks like it finally works.
+- Montreal sunset minutes is only showing 1 digit. Most other cities seem fine.
+- Another session should sort this. Finally.
