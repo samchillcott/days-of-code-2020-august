@@ -220,3 +220,23 @@
 - Think the .format() was confusing the getters so removed that and looks like it finally works.
 - Montreal sunset minutes is only showing 1 digit. Most other cities seem fine.
 - Another session should sort this. Finally.
+
+### #daysofcode 14/8/20 
+
+**Today's Progress**
+- Weather App Times Issue:
+- Sort formatting and display of Unix timestamps after timezone conversion.
+- Reviewed and merged PR back into master branch.
+- GitHub Pages deployment update.
+- Mobile responsive issue - create PR for responsive styling.
+
+**Thoughts** 
+- I think when the minutes is a single digit it displays as a single digit but I want it to be double ie 03 instead of 3. It is my formatting that needs sorting because this is happening in hours as well (6:5 instead of 06:05). Ideally I want single digit format for hours and double for minutes.
+- Converted timestamp to correctly formatted string and displays perfectly but do now have a "value provided is not in a recognised RFC2822 or ISO format" deprecation warning.
+- Removed above formatting and used a quick function to add a zero to single digit minutes when using an accepted format.
+- Added same function to sunrise minutes.
+- Normally I would merge this back into dev branch and then merge dev branch into master but am doing this via a PR on GH so will be interesting to see what happens. Think it merged into dev and then into master. Looks like it put the commits directly onto the dev branch, my previous way would have displayed the commits on the fix branch then 1 commit to show the merge. Sure it all does the same. Think my way was the long-winded way come to think of it.
+- GitHub Pages (which is running off a GitHub pages branch (the only way I could get it working a while back) so it is now behind the master and therefore not showing the latest merge. I want to be able to sync my ghp and master branches. Reverted to master branch and now GHP just shows the readme.
+- Tried to checkout the GHP branch locally and created a new branch - VSCode going mental with 40k uncommitted changes. Unsure what is happening.
+- Think I might need to run a build and just get this app running off the master. Run the build and changed GHP to run from master - not quite displaying correctly. Npm run deploy got it working - I remember this from a few weeks back.
+- Creating the mobile-responsive branch off the dev means it is now 12 commits behind due to the last PR. Not used to this way of doing things. Created draft PR and linked to issue.
