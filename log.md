@@ -240,3 +240,19 @@
 - Tried to checkout the GHP branch locally and created a new branch - VSCode going mental with 40k uncommitted changes. Unsure what is happening.
 - Think I might need to run a build and just get this app running off the master. Run the build and changed GHP to run from master - not quite displaying correctly. Npm run deploy got it working - I remember this from a few weeks back.
 - Creating the mobile-responsive branch off the dev means it is now 12 commits behind due to the last PR. Not used to this way of doing things. Created draft PR and linked to issue.
+
+### #daysofcode 15/8/20 
+
+**Today's Progress**
+- Weather App - mobile responsive:
+- Common breakpoints reading - Bootstrap and @thecodercoder suggestions.
+- Fixed containers and text for S/M/L Mobiles, Tablets and Desktops using chrome dev tools responsive. Started with mobile-first approach.
+- Merged PR back in, closed issue and updated GHP deployment.
+
+**Thoughts** 
+- Not played with CSS and media queries in detail in a while as I've been concentrating on JS. I still have a few grey areas so spending some time learning the most up to date methods and tools for making a site mobile ready/responsive.
+- Most of my mobile design has been done by just shrinking the width of my browser (to around 500px). I realise now this is insufficient and could go into more detail and use smaller breakpoints.
+- I made the new branch off the dev but it was before the sunrise/set commits. This could cause an issue when I merge back in. Will it keep the new branch time setup or the current dev branch. All a bit confusing/worrying. Turned out ok as only merges the files I changed (2 x css files) back into master. Just looks different in GitGraph.
+- Stoked I feel way more comfortable with mobile first and responsive design now. 
+- Must remember to run build before run deploy for GitHub Pages.
+
