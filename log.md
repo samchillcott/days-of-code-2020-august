@@ -256,3 +256,11 @@
 - Stoked I feel way more comfortable with mobile first and responsive design now. 
 - Must remember to run build before run deploy for GitHub Pages.
 
+### #daysofcode 16/8/20 
+
+**Today's Progress**
+- N/A.
+
+**Thoughts** 
+- Planning week ahead - mainly based around finishing off CV and looking to approach some companies for jnr positions. 
+- Super tired today and checking my Youper app, I see I have on aver 1 or 2 bad nights of sleep a week which really lowers my productivity. Annoyingly, I can't always control the variables and it seems to be hit or miss.
