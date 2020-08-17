@@ -264,3 +264,20 @@
 **Thoughts** 
 - Planning week ahead - mainly based around finishing off CV and looking to approach some companies for jnr positions. 
 - Super tired today and checking my Youper app, I see I have on aver 1 or 2 bad nights of sleep a week which really lowers my productivity. Annoyingly, I can't always control the variables and it seems to be hit or miss.
+
+### #daysofcode 17/8/20 
+
+**Today's Progress**
+- Portfolio Responsive Design - Updated so now all pages are responsive.
+- Portfolio Issue - Mentor logged an issue where the tech icons don't reload upon page refresh. Created draft PR and linked issue. Changed icons from relative to absolute path.
+- Portfolio icons text - I want to display some short text explaining the name of each tech icon and what it does for those who aren't familiar with the logos (potentially recruiters/HR). Set up branch ready for tomorrow.
+
+**Thoughts** 
+- After realising my weather app wasn't actually responsive and fixing that, I am now going through the same process on the portfolio site. Yet again, working with another person's Sass is a pain. I think there are some elements of Gatsby at play too.
+- Figured it was the padding on the page links that was causing the overflow. Tidied up lander.
+- Tidied About Page.
+- Added actual text email address to contact section for extra UX. Envelope icon sends them to an auto compose - but user may not have it setup for the right client.
+- The reload issue doesn't happen on the dev server. I need to remove the . to change the path.
+
+**Questions**
+- Is the norm to merge a fix/feature branch into the dev THEN into the master, or merge the fix/feature branch straight into the master? Both work but option 1 leaves the dev branch behind meaning when I create a new branch off the dev it is also then behind.
