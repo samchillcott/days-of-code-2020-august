@@ -281,3 +281,23 @@
 
 **Questions**
 - Is the norm to merge a fix/feature branch into the dev THEN into the master, or merge the fix/feature branch straight into the master? Both work but option 1 leaves the dev branch behind meaning when I create a new branch off the dev it is also then behind.
+
+### #daysofcode 18/8/20 
+
+**Today's Progress**
+- Portfolio Enhancements:
+- Centered page links.
+- Added title text to tech icons - hover state now shows name of technology and a brief description for those who don't know the logos by name (recruiters/HR).
+- Hover state fix - now return to normal after links have been visited.
+- Active page - Current page now indicated.
+- Weather App Responsive update - taking average screen height into consideration.
+
+**Thoughts** 
+- Added some &nbsp; to align the page link to the centre and adjusted a mobile-s media query to ensure it works across all device widths.
+- title text seems slow to load (2 seconds for the first one, pretty quick once you mouse over the rest) so people might not realise that feature exists. Suffices for now, will maybe add some animation in the future.
+- Active page not being indicated so checked the Gatsby docs and added an activeStyle attribute.
+- Active page styling stops after page reload? Leaving for now but made a note to fix later.
+- Noticed my weather app MQs were off. When in dev tools they worked fine in terms of width but my height setting was random and although it looked fine in dev tools, it didn't in reality. I'd love to know that I have my height set appropriately in dev tools responsive so I know my design works when it comes to height as well as width. Looks like 768px is the smallest on average. Adjusted accordingly.
+
+**Questions**
+- (How) do you take screen height into consideration when making a responsive design?
