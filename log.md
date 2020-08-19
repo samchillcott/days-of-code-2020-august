@@ -301,3 +301,18 @@
 
 **Questions**
 - (How) do you take screen height into consideration when making a responsive design?
+
+### #daysofcode 19/8/20 
+
+**Today's Progress**
+- CV/Resume updates - Ensuring all technologies and project info is up to date.
+- Typography - limit the number of font families to a minimum (two is plenty, one is often sufficient). Reduced the number of fonts on CV. Matched headings on Portfolio to CV.
+- webpack - Docs reading to understand the basics and differences from other tools.
+
+**Thoughts** 
+- Minimal code today but still part of the journey to junior. I've been consuming a lot of content (and making lots of notes) over the last few months in relation to the job side (learning roadmaps, resume tips, portfolio reviews, interview experiences and so on) so I already have a CV created. It has been reviewed by a recruiter already and now my mentor will do a review soon. As he knows me and my journey more, he may be able to think of extra things to add/change.
+- I'm aiming for some consistency between my portfolio and CV so did some reading on typography and basic (web) design concepts. At the moment I have a few different fonts and weights across the 2 documents.
+- webpack differs to gulp (which I have used) and is used in React so taking a look in more depth.
+
+**Questions**
+- Does a different weight of the same font count as a different font? Eg Roboto and Roboto Mono Thin.
