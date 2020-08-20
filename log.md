@@ -316,3 +316,19 @@
 
 **Questions**
 - Does a different weight of the same font count as a different font? Eg Roboto and Roboto Mono Thin.
+
+### #daysofcode 20/8/20 ⁣
+
+**Today's Progress**⁣
+- webpack:⁣
+- Basic tut understanding manual setup and configuration.⁣
+- web pack is a devDependency - devDependencies are modules which are only required during development, while dependencies are modules which are also required at runtime.⁣
+- __ - The __dirname in a node script returns the path of the folder where the current JavaScript file resides. __filename and __dirname are used to get the filename and directory name of the currently executing file.⁣
+- mode - can be production or development environment. If not set, will default to production.⁣
+- Tree shaking - a method of optimising code bundles by eliminating any code from the final file that isn’t actually being used.⁣
+
+**Thoughts** ⁣
+- Love how you can publish to GH directly and easily from VSCode (think that is a new feature or at least the GUI/process has a better UX).⁣
+- Starting to understand the npm ecosystem a little more. ⁣
+- Because I did some work in Gulp/build systems, the concept and process of webpack (at least on a basic level) makes sense. ⁣
+- From the YT comments: "Why not Gulp?" > Chris Hawkes: "Nobody uses it anymore. Webpack killed it".
