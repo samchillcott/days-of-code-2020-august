@@ -332,3 +332,17 @@
 - Starting to understand the npm ecosystem a little more. ⁣
 - Because I did some work in Gulp/build systems, the concept and process of webpack (at least on a basic level) makes sense. ⁣
 - From the YT comments: "Why not Gulp?" > Chris Hawkes: "Nobody uses it anymore. Webpack killed it".
+
+### #daysofcode 21/8/20 
+
+**Today's Progress**
+- Resume updates:
+- Increase readability - removing ambiguous words, increasing font size, shifting layout
+- Add photo.
+- Embellish the languages & frameworks with more detail. - Highlight the coaching, team and self-management skills more.
+
+**Thoughts** 
+- Mentor CV review yesterday gave some great tips on both content and design. Always great to get extra eyes/thoughts. Some things were obvious that I didn't pick up on myself.
+- I've been tracking my coding hours each day since December 2019. Recently I have been spending time on non-code/job-related tasks and the job application process in general. As my objective is to land a position, I have decided to count the non-code hours because they still count toward my Objective (I use OKRs - Objective Key Results for my tracking system).
+- CV looks better already. Note to self: don't be afraid to edit existing "designs" made by designers.
+- Chat with a former employee of a potential target company. Realising team skills and self-management are strengths I have that aren't highlighted on my CV.
