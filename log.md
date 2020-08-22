@@ -346,3 +346,19 @@
 - I've been tracking my coding hours each day since December 2019. Recently I have been spending time on non-code/job-related tasks and the job application process in general. As my objective is to land a position, I have decided to count the non-code hours because they still count toward my Objective (I use OKRs - Objective Key Results for my tracking system).
 - CV looks better already. Note to self: don't be afraid to edit existing "designs" made by designers.
 - Chat with a former employee of a potential target company. Realising team skills and self-management are strengths I have that aren't highlighted on my CV.
+
+### #daysofcode 22/8/20 
+
+**Today's Progress**
+- Job Prep List - Going through a few company sites to pick out keywords and technologies to at least get myself familiar with.
+- Updated LinkedIn with my new languages and frameworks.
+- CRUD v REST - REST is an architectural system centered around resources and hypermedia, via HTTP protocols. CRUD is a cycle meant for maintaining permanent records in a database setting. CRUD principles are mapped to REST commands to comply with the goals of RESTful architecture.
+
+**Thoughts** 
+- Mentor and I will be doing this process in more detail next week but this is good practice to pick out what potential employers may be looking for. 
+- For the last 9 months I have been slouched on a sofa/chair whilst working with the laptop on my lap. I feel fine at the moment but mentor mentioned to think about posture now (before its too late). Today I am using a @nexstand_eu stand (keeping my MBA at eye level), wired keyboard and a Magic Mouse sat up at a desk. My neck isn't used to this angle yet but I want to strengthen myself in this more ergonomic position going forward.
+- Agile keeps popping up. I did actually teach myself PRINCE2 project management back in 2015 (I looked at project management as a potential career path - wish I would have done the qualification at the time) and did cover a bit of Agile so will check out my notes and ensure they are up to date.
+- Doing the same thing with another company to see if any patterns emerge in terms of work approaches/peripheral philosophies etc.
+- Already seeing the second company is too advanced for me at this level so checking the culture side.
+- Nice to get back into listening to dnb while working. Can be done when I'm doing less focused/taxing work. I missed the energy.
+- Sat a dining table and already remembering the importance of a decent chair! Will be investing once I settle.
