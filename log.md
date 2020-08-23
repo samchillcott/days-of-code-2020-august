@@ -362,3 +362,13 @@
 - Already seeing the second company is too advanced for me at this level so checking the culture side.
 - Nice to get back into listening to dnb while working. Can be done when I'm doing less focused/taxing work. I missed the energy.
 - Sat a dining table and already remembering the importance of a decent chair! Will be investing once I settle.
+
+### #daysofcode 23/8/20 
+
+**Today's Progress**
+- N/A.
+
+**Thoughts** 
+- Day off with family.
+- Caught live stream by ritagirl. Asked for junior dev advice: "don't underestimate yourself and your talent".
+
