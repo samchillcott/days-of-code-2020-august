@@ -372,3 +372,16 @@
 - Day off with family.
 - Caught live stream by ritagirl. Asked for junior dev advice: "don't underestimate yourself and your talent".
 
+### #daysofcode 24/8/20 
+
+**Today's Progress**
+- Coding interview prep - (Technical) Interviews can cover theory as well as coding questions/challenges.
+- Created a doc for the common JS theory and coding challenge interview Qs.
+- Data Structures - Initial look at the common ones.
+- Drafted a cover letter template (which will eventually be tailored to specific job listings).
+- Had a look at a few companies using Glassdoor.
+
+**Thoughts** 
+- I've had an "Interview skills" section on my to do list for a while. This is less on the soft skills and more on the technical side. I played with edabit a while back and plan to look into data structures and algorithms too. @dev.jeanrauwers also suggested getting some practice coding under pressure. I'm not aiming for FAANG so won't be going too deep into the technical interview but having some skills in that area will def help not just my interview process but also the rest of my career. I guess the only way to find out what I'l need to know for interviews is to start doing interviews.
+- Bits and bobs kinda day. Don't feel like I have learned too much but definitely laid out and prepared a few paths/documents for future learning. 
+- Feeling slightly lost/unfocused due to multiple potential routes of things to do and learn. Referred back to my main objective for focus.
