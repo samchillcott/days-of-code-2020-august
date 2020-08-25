@@ -385,3 +385,24 @@
 - I've had an "Interview skills" section on my to do list for a while. This is less on the soft skills and more on the technical side. I played with edabit a while back and plan to look into data structures and algorithms too. @dev.jeanrauwers also suggested getting some practice coding under pressure. I'm not aiming for FAANG so won't be going too deep into the technical interview but having some skills in that area will def help not just my interview process but also the rest of my career. I guess the only way to find out what I'l need to know for interviews is to start doing interviews.
 - Bits and bobs kinda day. Don't feel like I have learned too much but definitely laid out and prepared a few paths/documents for future learning. 
 - Feeling slightly lost/unfocused due to multiple potential routes of things to do and learn. Referred back to my main objective for focus.
+
+### #daysofcode 25/8/20 
+
+**Today's Progress**
+- Data Structures & Algorithms:
+- To truly master Algorithms is to understand them in relationship to Data Structures. Data structures and algorithms go hand-in-hand like Yin and Yang.
+- An algorithm is just a function that transforms a certain input data structure into a certain output data structure.
+- DS/A/DP - All of three of these basically compile to this: knowledge of efficient code placement and efficient execution of code to achieve the best possible result in the shortest amount of time. Algorithms can propel you forward and give you better insight as to what kind of function to use to sort more efficiently, or how to use it correctly. Data Structures and how they work also help you pick what’s best. You learn what operations are expensive in terms of processing and memory. Design Patterns help you set up your structure in conventional, tested, and proven ways. 
+- Collating common algorithm challenges.
+- Data Structures basics - looking a the most common types and their pros and cons.  Linked lists, Arrays, Hash tables (objects in JS), Stacks and queues, Graphs and trees.
+- Code Kata - an exercise in programming which helps software developers improve their skills through practice and repetition.
+- Pair programming - an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in.
+
+**Thoughts** 
+- Spent the start of the session getting head around what data structures, algorithms and design patterns actually are (with examples), how they all sit together and why they are worth learning.
+- General consensus of which to learn first seems to be data structures although you kinda need to do both at the same time.
+- I'm starting to see that I was doing this kind of problem solving when I was using @edabit a few months back. I can also see how having a better knowledge of DS&A can give you more options to solve problems and the ability to select more performant options.
+- Look into Katas as suggested by @dev.jeanrauwers. UK interviews in his experience were more around katas and pair programming rather than data structures and algo (more common in the US).
+- Brief overview of pair programming and some tips.
+- Another day of no code but definitely got my head around a few concepts and will dive in to some Katas for practice.
+- Tried to change the scaling on my mouse in terminal to reduce wrist movement. Mac doesn't seem to want to go as high as I'd like.
