@@ -406,3 +406,25 @@
 - Brief overview of pair programming and some tips.
 - Another day of no code but definitely got my head around a few concepts and will dive in to some Katas for practice.
 - Tried to change the scaling on my mouse in terminal to reduce wrist movement. Mac doesn't seem to want to go as high as I'd like.
+
+### #daysofcode 26/8/20 
+
+**Today's Progress**
+- Coding challenges - Having a go at some of the classics using Codewars:
+- Fizzbuzz (multi-line) kata - basic test passed in under 5 mins. 
+- Traversy JS Cardio YT:
+- String reverse - under 1 min, using 1 line.
+- String reverse (without using reverse()) - 25 mins. Lol.
+
+**Thoughts** 
+- Complied a lot of theory qs and coding challenges, now time to answer them and build that interview muscle up. 
+- I was told a while back that the whole interview side was a different skill in itself which needed some time to spend on. I was secretly hoping that wasn't the case and a decent portfolio would do the trick. I now see that a lot of time is needed for this area of learning and deserves as much time as a new framework at least. Worth putting the time in though, it will lonely serve me going forward.
+- Cool to see in CW you are encouraged to write your own tests as you try to complete the kata, as you would if you were writing production code.
+- Full test suite "ATTEMPT" is a cool option to get used to optimising the code. I passed the sample test but not the full test according to the requirement "Every line should have less than 4 characters". How tf do I do that? And WHY? Guessing this is an advanced version of fb, will come back.
+- CW seems to have slightly more advanced variations of the classics. Can't seem to find the basic versions on here (annoyingly).
+- Highly irritable today for some reason. Switched to edabit to try and find equivalents of the classics.
+- Be great if there was a playlist of the classics - made a note for feature request to CW.
+- Quick refresher on one liners / arrow syntax. Am proper rusty on the basics! Could do with a debugger refresher too.
+- Desk and mouse is starting to strain my neck - defeats the point in me moving from a sofa/slouch combo.
+- Good to be back in the JS gym.
+
