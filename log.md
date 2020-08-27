@@ -428,3 +428,19 @@
 - Desk and mouse is starting to strain my neck - defeats the point in me moving from a sofa/slouch combo.
 - Good to be back in the JS gym.
 
+### #daysofcode 27/8/20 
+
+**Today's Progress**
+- Coding Challenges:
+- Reverse string - not using reverse(), using a string, an array, incrementing and decrementing for loop variations, for of, for each and reduce().
+- Palindrome validation - easy.
+- Reverse integer - Return as an integer not a string (parseInt()), include negative numbers.
+- Capitalize letters - Return a string with the first letter of every word capitalized. 
+
+**Thoughts** 
+- The constraints and variations are really making me think, I like it.
+- Tried sleeping with mouth tape to improve nasal breathing last night. My deviated septum meant that I woke up probably because I couldn't breathe so not feeling too energetic this morning.
+- I'm embarrassed by how much I have forgotten but I guess that is what happens when you learn so much stuff. Also glad that there isn't the expectation to remember everything (a belief I had before I started coding). I may not remember much, but bottom line, give me a few mins and google (or my own notes) and I can get sh*t working.
+- I don't think I've ever written a forEach. Higher order functions have been on my list for ages, maybe its time to dive in.
+- Just googled the capitalisation one. Not used substring before and had no idea where to start.
+
