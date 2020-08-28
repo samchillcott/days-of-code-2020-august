@@ -444,3 +444,25 @@
 - I don't think I've ever written a forEach. Higher order functions have been on my list for ages, maybe its time to dive in.
 - Just googled the capitalisation one. Not used substring before and had no idea where to start.
 
+### #daysofcode 28/8/20 
+
+**Today's Progress**
+- Job Prep List Updates - Brief overviews (shallow learning) of:
+- React v Angular - React is a library, Angular is a framework.
+- Angular.
+- BitBucket - Alternative to GitHub.
+- TypeScript - Why use it and weak v strong type systems.
+- React Native.
+- Cloud computing - Created new doc and covered general concept, services, benefits, cloud types (public/private/hybrid), types of services (IaaS/PaaS/Serverless/SaaS) common uses and providers (AWS/Azure/Google).
+- Lazy Loading - a design pattern commonly used in computer programming to defer initialisation of an object until the point at which it is needed (usually images/vide/iframes below the fold). It can contribute to efficiency in the program's operation.
+- SOLID - Main principles: Single responsibility, open closed, Liskov substitution, interface segregation and dependency inversion. The intention of these principles is to make software designs more understandable, easier to maintain and easier to extend.
+- Node.js.
+- MongoDB - a document database, which means it stores data in JSON-like documents.
+
+**Thoughts** 
+- Slight pivot and few things added to list after mentor chat yesterday. Working way through them this/next week. 
+- Upping the hours the next few days so working more on pomodoros and pace to improve work rate sustainability. I work most days with a virtual coworker so we are now encouraging and reminding each other to take proper breaks (get up, fresh air, stretch, no devices etc).
+- Cool to learn a bit more about cloud. Can see me getting more into it in the future.
+- Super passive day of "shallow" learning but great to know what some more terms and concepts are that I always see in job listings (and company sites) but hadn't got round to looking at and getting a grasp of yet.
+- My curated collection of deep house mixes (which I eventually want to build an app around) has really got me in the zone today.
+- Guess one of the main benefits of today's learning is a further understanding of what tools are available when it comes to development.
