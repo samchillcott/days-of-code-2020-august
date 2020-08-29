@@ -466,3 +466,30 @@
 - Super passive day of "shallow" learning but great to know what some more terms and concepts are that I always see in job listings (and company sites) but hadn't got round to looking at and getting a grasp of yet.
 - My curated collection of deep house mixes (which I eventually want to build an app around) has really got me in the zone today.
 - Guess one of the main benefits of today's learning is a further understanding of what tools are available when it comes to development.
+
+### #daysofcode 29/8/20 
+
+**Today's Progress**
+- Redux.js:
+- DevEd tut - refresher on application level state management.
+- Store - globalised state.
+- Action - describes what you are going to do (think Event).
+- Reducer - describes how your actions transform your state into your next state. Action called, reducer checks which action then modifies store (think Event Handler).
+- Dispatch - execute the action to the reducer, store gets updated.
+- combineReducers - groups all your reducers.
+- Redux DevTools - Chrome extension for debugging application's state changes.
+- Provider - via react-redux, connects global state/store to entire app (by wrapping the App component).
+- useSelector - via redux, allows you to extract data from the Redux store state, using a selector function.
+- useDispatch - hook returns a reference to the dispatch function from the Redux store. You may use it to dispatch actions as needed.
+- Payload - the part of transmitted data that is the actual intended message.
+- Mosh tut - Pros and Cons of Redux, Functional Programming (inc Function Composition, Lodash, Currying, pure functions, immutability), Redux fundamentals & Bug Tracker App.
+
+**Thoughts** 
+- As @developedbyed says, you can get by with passing props or useContext with your own/smaller projects but larger scale apps (read: actual jobs) may use it hence why I am having a look.
+- Can already see why you wouldn't need Redux for small apps = so much to set up to get going! But, can also already see how that setup is beneficial when you are dealing with multiple files and state etc.
+- I actually prefer working on my own projects rather than tuts nowadays = I can listen to my music and time flies.
+- Love how the RDT GUI visualises the actions and the state in the form of a chart(showing connections) as well as a classic tree. Also shows the Diff(erence) = the previous state. Some other cool features like playback and skip/jump.
+- Not sure why we now have 3 index.js files (albeit in 3 different locations). Surely that can lead to some confusion?
+- My eyes are feeling dry - must remember to blink more. May check out some glasses.
+- Mosh tut seems to be going into a lot of foundational theory. Little irked as I want to learn Redux but all useful stuff no doubt (vid is part of a bigger course tbf). Skipped the last few sections to get to Redux. Probably could have chosen a more specific tut, my bad.
+- Like how Mosh has an exercise so you have to go think for yourself.
