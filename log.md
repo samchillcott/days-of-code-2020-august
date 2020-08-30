@@ -493,3 +493,32 @@
 - My eyes are feeling dry - must remember to blink more. May check out some glasses.
 - Mosh tut seems to be going into a lot of foundational theory. Little irked as I want to learn Redux but all useful stuff no doubt (vid is part of a bigger course tbf). Skipped the last few sections to get to Redux. Probably could have chosen a more specific tut, my bad.
 - Like how Mosh has an exercise so you have to go think for yourself.
+
+### #daysofcode 30/8/20 
+
+**Today's Progress**
+- Challenge #8 - TDD & REST(ful API):
+- Project planning - Create google doc and steps.
+- TDD - Reading to understand why and what to test.
+- Project setup - Basic empty files, Jest install, GH sync.
+- Tests first - to see if module/function exists = test fail (which is expected because I haven't written the function yet).
+- REST - reading refresher on the concept and methods.
+- PUT v PATCH - The PATCH method is not a replacement for the POST or PUT methods. It applies a delta (diff) rather than replacing the entire resource.
+
+**Thoughts** 
+- Cool to get some experience of two concepts at once - great idea by mentor.
+- I've written tests (unit, integration and e2e) before but that was done on an existing project. This time, I am writing the tests first before any lines of production code. Quite hard to shift to that mindset, I am drawn to cracking on with the production code.
+- Unsure whether to write all the tests for the one function first then write the function or do the first test, then pass it, then go write the second test (for the first function).
+- Add assertion to test, then fulfil seems to be the process. Red, Green, Clean.
+- Jest watch mode doesn't work?
+- Probably don't need a written test to see if function exists - the test does this automatically as if it can't find the function it will fail anyway?
+- Prefer using the "it("should..." Instead of "test" keyword syntax. Makes more sense verbally.
+- Also struggling to know what to test for and how - which is harder as I haven't written the function yet. Or worked much with REST.
+- I can see how adding more assertions leads to failing earlier tests being the norm (didn't get that last testing project) and why this helps.
+- My functions aren't going to be taking argument (I don't think) so there are less things to check for? Or can I pass an address/URL as an argument possibly?
+- "Green—make the test work quickly, committing whatever sins necessary in the process" - I'm hardcoding the objects at this stage so tests pass. 
+- This is a bit like whack-a-mole - sort one thing out, another one pops up. But obvs that the point and the better the code is, the fewer moles will pop up.
+- fetch undefined - hmm, will tackle tomorrow. 3 nights bad sleep kicking in.
+
+**Questions**
+- Does writing the index.html count as production code? Or just the JS/functionality?
