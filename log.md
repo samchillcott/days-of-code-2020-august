@@ -522,3 +522,21 @@
 
 **Questions**
 - Does writing the index.html count as production code? Or just the JS/functionality?
+
+### #daysofcode 31/8/20 
+
+**Today's Progress**
+- TDD & REST challenge:
+- REST - refresher.
+- Refactor fetch to axios.
+- HTTP 201 - Created success status response code indicates that the request has succeeded and has led to the creation of a resource.
+- JS Modules - refresher.
+
+**Thoughts** 
+- Watched a great talk by Roy Osherove on TDD last night which answered most of the questions I had yesterday about the finder details of the implementation of TDD.
+- Thinking Axios may be better to use instead of fetch. Jest uses Node.js and Node.js does not come with fetch => specific to web browsers.
+- Coding under pressure - @dev.jeanrauwers mentioned about getting some experience of this. Kinda feeling it atm - have set myself a target to finish this mini project and am coming up against some unexpected issues and having to learn 2 (now 3 with axios) concepts at the same time.
+- require() is not a valid function in client side javascript. Another environment issue. Have a feeling this simple project could end up being more complex than initially planned. Would give me great experience but time is a factor here.
+- axios now working in the browser - used CDN instead of importing (although this may come back and bite me in node). Posting fine with 201 status
+- My production code is almost becoming whack-a-mole too. Lol. Sure it is something obvious to do with modules and importing. As annoying as this is, I am learning a lot with this challenge already.
+- Really struggling to get this working across both environments to even get the test running again. 
