@@ -540,3 +540,29 @@
 - axios now working in the browser - used CDN instead of importing (although this may come back and bite me in node). Posting fine with 201 status
 - My production code is almost becoming whack-a-mole too. Lol. Sure it is something obvious to do with modules and importing. As annoying as this is, I am learning a lot with this challenge already.
 - Really struggling to get this working across both environments to even get the test running again. 
+
+### #daysofcode 1/9/20 
+
+**Today's Progress**
+- TDD & REST Challenge:
+- 2hr call with mentor - unable to get axios working in node. Decided to drop the TDD side and continue as a crude REST app. 
+- Add event listeners and handlers for the remaining REST functions.
+- Added alert with HTTP status code from the response.
+- Converted actions to async so alert only fire after action complete.
+- Hosted on Netlify.
+- Looked at AWS EC2 hosting. 
+- AWS AMI - a template that contains the software configuration (operating system, application server, and applications) required to launch your instance.
+- Finished .readme - mentioning the pivot.
+- Created gif.
+- Added to portfolio site.
+- Added a paragraph that displays the method, response code and body.
+- Included headers as args when making the requests (where appropriate).
+- Updated CV with new skills & knowledge. Added to portfolio.
+
+**Thoughts** 
+- We possible could have got the axios tests working using either React (uses web pack) or via mocking or bundling but as time is of the essence am happy to move on. Have still learned a lot about TDD, just unable to have something to show for it at this stage. Will keep the attempt as part of the project and mention the challenges/obstacles/attempts in the readme. Guess this also gives some experience in knowing when to call things and make an executive decision (on a feature for example).
+- Back to basics with DOM events so a good refresher.
+- Used async from memory = I understand it better nowadays.
+- Crude app up and running and hosted on Netlify. Decided to check out AWS hosting for some further experience with the Amazon Web Service ecosystem. Got as far as launching and instance and creating a key pair. Next steps looked pretty complex. Another decision to leave for now.
+- Another long day on minimal sleep but loving it.
+
