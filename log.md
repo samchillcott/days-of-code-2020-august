@@ -566,3 +566,15 @@
 - Crude app up and running and hosted on Netlify. Decided to check out AWS hosting for some further experience with the Amazon Web Service ecosystem. Got as far as launching and instance and creating a key pair. Next steps looked pretty complex. Another decision to leave for now.
 - Another long day on minimal sleep but loving it.
 
+### #daysofcode 2/9/20 
+
+**Today's Progress**
+- TDD & REST Project:
+- Refactored the 5 verb functions into a single one that takes arguments = implementing DRY.
+- Mentor job prep meetings.
+- Job prep.
+- Reading on translating business requirement into technical requirements and multithreading concepts.
+
+**Thoughts** 
+- Had a play with using git in the terminal - Been using GitGraph since day 1 as I prefer the visuals but good to get comfortable with terminal use if GG isn't available for whatever reason.
+- Awesome and thorough day of job prep. Super grateful for the experience and support of my mentor.
