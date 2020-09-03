@@ -578,3 +578,19 @@
 **Thoughts** 
 - Had a play with using git in the terminal - Been using GitGraph since day 1 as I prefer the visuals but good to get comfortable with terminal use if GG isn't available for whatever reason.
 - Awesome and thorough day of job prep. Super grateful for the experience and support of my mentor.
+
+### #daysofcode 3/9/20 
+
+**Today's Progress**
+- Job prep.
+- TDD & REST project DRY refactoring from 158 to 89 lines of code.
+- Merged DRY branch back into master using terminal.
+
+**Thoughts** 
+- Thorough session tweaking CV & portfolio with mentor.
+- Struggling to get the DRY function working. Seems to be firing on load rather than through the event listener and no longer displays the desired info from the response object.
+- Had to wrap the second listener parameter inside an anonymous function - works on click now. Not displaying full text though. Fixed.
+- Almost halved the file length, cool!
+- Delete displays undefined as body, I want to not display that line if undefined. Used a conditional and works as planned. Can possibly refactor the conditional further as some parts do repeat but can't figure it out as there are multiple strings. Leaving for now.
+- Gig Graph doesn't show a trace of a new branch splitting off from master and then merging back. Possibly due to some default settings such as squashing, ff and merging that I didn't specify which usually come as standard using GG? Not to worry, it worked.
+- Will go back over my old projects and refactor using DRY and SOLID for a bit of practice at some point.
