@@ -594,3 +594,12 @@
 - Delete displays undefined as body, I want to not display that line if undefined. Used a conditional and works as planned. Can possibly refactor the conditional further as some parts do repeat but can't figure it out as there are multiple strings. Leaving for now.
 - Gig Graph doesn't show a trace of a new branch splitting off from master and then merging back. Possibly due to some default settings such as squashing, ff and merging that I didn't specify which usually come as standard using GG? Not to worry, it worked.
 - Will go back over my old projects and refactor using DRY and SOLID for a bit of practice at some point.
+
+### #daysofcode 6/9/20 
+
+**Today's Progress**
+- N/A.
+
+**Thoughts** 
+- Reading about Human Computer Interaction (HCI) and cognitive science. Super intrigued by this area as it covers two of my passions (and career paths) of computing and psychology.
+- Opted for a cycle today instead of a run. As much as I love running, it does tend to reduce my sleep quality the night of the run which then affects my productivity the next day.
